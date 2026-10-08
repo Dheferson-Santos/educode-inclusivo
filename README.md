@@ -32,4 +32,6 @@ O objetivo é oferecer uma introdução clara e acessível ao conceito de algori
 
 ---
 
-## Estrutura do projeto
+## Acesso online
+
+[Clique aqui para acessar o projeto](https://dheferson-santos.github.io/educode-inclusivo/)
