@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduCode Inclusivo - Aprenda Algoritmos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- CABECALHO -->
+  <header>
+    <h1>EduCode Inclusivo</h1>
+    <p>Aprenda algoritmos de forma simples!</p>
+  </header>
+
+  <main>
+
+    <!-- SECAO 1: O QUE E UM ALGORITMO -->
+    <section class="card">
+      <h2>O que e um algoritmo?</h2>
+      <p>
+        Algoritmo e uma <strong>sequencia de passos</strong> utilizada para
+        resolver um problema. Ele esta presente no nosso dia a dia, como
+        fazer um sanduiche, escovar os dentes ou ligar um computador.
+      </p>
+      <p>
+        Na programacao, os algoritmos sao a base de tudo: antes de escrever
+        codigo, precisamos pensar na <strong>logica</strong> dos passos.
+      </p>
+    </section>
+
+    <!-- SECAO 2: EXEMPLO DE ALGORITMO -->
+    <section class="card">
+      <h2>Exemplo de algoritmo</h2>
+      <p>Veja abaixo o algoritmo de <strong>"Ligar o computador"</strong>:</p>
+      <ol>
+        <li>Pegar o computador</li>
+        <li>Ligar o computador</li>
+        <li>Esperar iniciar</li>
+      </ol>
+    </section>
+
+    <!-- SECAO 3: DESAFIO OPCIONAL - SANDUICHE -->
+    <section class="card">
+      <h2>Meu primeiro algoritmo: Sanduiche</h2>
+      <p>Transformando um algoritmo do cotidiano em HTML:</p>
+      <ol>
+        <li>Pegar o pao</li>
+        <li>Abrir o pao</li>
+        <li>Colocar o queijo</li>
+        <li>Colocar o presunto</li>
+        <li>Fechar o pao</li>
+        <li>Servir</li>
+      </ol>
+    </section>
+
+    <!-- SECAO 4: ATIVIDADE INTERATIVA (3 PERGUNTAS) -->
+    <section class="card destaque">
+      <h2>Teste seu conhecimento</h2>
+      <p>Responda as 3 perguntas abaixo e clique em <strong>Verificar</strong>.</p>
+
+      <!-- PERGUNTA 1 -->
+      <div class="pergunta">
+        <h3>Pergunta 1 - Quantos passos existem neste algoritmo?</h3>
+        <p>
+          1. Pegar o computador<br>
+          2. Ligar o computador<br>
+          3. Esperar iniciar
+        </p>
+        <div class="alternativas">
+          <label><input type="radio" name="pergunta1" value="2"> A) 2 passos</label>
+          <label><input type="radio" name="pergunta1" value="3"> B) 3 passos</label>
+          <label><input type="radio" name="pergunta1" value="4"> C) 4 passos</label>
+          <label><input type="radio" name="pergunta1" value="5"> D) 5 passos</label>
+        </div>
+        <p id="resultado1" class="resultado"></p>
+      </div>
+
+      <!-- PERGUNTA 2 (Grupo 1) -->
+      <div class="pergunta">
+        <h3>Pergunta 2 - O que vem primeiro?</h3>
+        <p>
+          1. Abrir o navegador<br>
+          2. Ligar o computador<br>
+          3. Digitar o endereco do site
+        </p>
+        <div class="alternativas">
+          <label><input type="radio" name="pergunta2" value="1"> A) Abrir o navegador</label>
+          <label><input type="radio" name="pergunta2" value="2"> B) Ligar o computador</label>
+          <label><input type="radio" name="pergunta2" value="3"> C) Digitar o endereco do site</label>
+          <label><input type="radio" name="pergunta2" value="4"> D) Nenhuma das opcoes</label>
+        </div>
+        <p id="resultado2" class="resultado"></p>
+      </div>
+
+      <!-- PERGUNTA 3 (Grupo 3) -->
+      <div class="pergunta">
+        <h3>Pergunta 3 - Qual numero e maior?</h3>
+        <p>Numero 1: <strong>15</strong> &nbsp;|&nbsp; Numero 2: <strong>20</strong></p>
+        <div class="alternativas">
+          <label><input type="radio" name="pergunta3" value="15"> A) 15</label>
+          <label><input type="radio" name="pergunta3" value="20"> B) 20</label>
+          <label><input type="radio" name="pergunta3" value="0"> C) Sao iguais</label>
+          <label><input type="radio" name="pergunta3" value="-1"> D) Nenhum</label>
+        </div>
+        <p id="resultado3" class="resultado"></p>
+      </div>
+
+      <!-- BOTAO -->
+      <button id="verificar">Verificar Respostas</button>
+
+      <!-- RESULTADO FINAL -->
+      <p id="resultadoFinal" class="resultado-final"></p>
+    </section>
+
+  </main>
+
+  <!-- RODAPE -->
+  <footer>
+    <p>Universidade do Estado do Para - UEPA | Programacao Web I</p>
+    <p>Prof. MSc Jacqueline Teixeira - Projeto EduCode Inclusivo</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
