@@ -16,7 +16,7 @@ O objetivo é oferecer uma introdução clara e acessível ao conceito de algori
 
 - HTML5
 - CSS3
-- JavaScript (ES6+)
+- JavaScript (ES6+) atualizado
 
 ---
 
